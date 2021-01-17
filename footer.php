@@ -20,11 +20,6 @@
   </div>
   <div class="bottom_menu">
     <div class="container-fluid f_block_menu">
-      <!-- <div class="mobile-mnu hidden-md hidden-lg clearfix">
-            <a class="toggle-mnu hidden-lg" href="#">
-                <span></span>
-            </a>
-        </div> -->
       <nav id="site-navigation" class="main-navigation">
         <?php
         wp_nav_menu(
@@ -32,9 +27,7 @@
                 'theme_location' => 'menu-1',
                 'menu_id'        => 'primary-menu',
                 'container'      => 'ul',
-                'menu_class'     => 'f_ul',
-                // 'fallback_cb'    => '__return_empty_string',
-                // 'depth'          => 0
+                'menu_class'     => 'f_ul ',
             )
         );
         ?>
