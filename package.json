@@ -1,0 +1,30 @@
+{
+  "name": "spiver",
+  "version": "1.0.0",
+  "description": "Website for decore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "makecodework",
+    "wordpress"
+  ],
+  "author": "O.Poruchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-connect-php7": "^1.0.1",
+    "gulp-remember": "^1.0.1",
+    "multipipe": "^3.0.1",
+    "postcss-scss": "^3.0.4"
+  }
+}

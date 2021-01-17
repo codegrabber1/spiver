@@ -1,0 +1,68 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: $color__background-body;
+  font-family: $font__main;
+  font-size: 1.4rem;
+  // color: $maim__color_text;
+  line-height: $font__line-height-body;
+  font-weight: 300;
+  color: #333;
+  line-height: 1.6em;
+  position: relative;
+}
+#cartLabel {
+  position: fixed;
+  top: 40%;
+  right: 0;
+  z-index: 1000;
+  width: 70px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color__background-green;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  -moz-box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShadow=true, ShadowOpacity=0.30);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+  zoom: 1;
+}
+#cartLabel a {
+  color: $color__current;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-right: 6px;
+  display: block;
+  font-family: $font__heading;
+}
+.cart_data {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+.p_d {
+  color: $color__background-green;
+}
+.wrapper-site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+footer {
+  margin-top: auto;
+}

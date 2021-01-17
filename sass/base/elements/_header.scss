@@ -1,0 +1,75 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(33, 33, 36, 0.95);
+  color: hsla(0, 0%, 100%, 0.6);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  /*height: 40px;*/
+  z-index: 1040;
+}
+/* Background for the header of the home page*/
+.main_header {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+.topnavbar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.toplogo img {
+  width: 150px;
+}
+.topsearch {
+  border-radius: 5px;
+  width: 70%;
+  margin: 0 auto;
+}
+.topbtn ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+}
+.topbtn ul li {
+  margin: 10px;
+  display: block;
+}
+
+.topbtn ul li > a {
+  display: block;
+}
+
+.blockinfo {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.breadcrumb-bg {
+  background: $color__breadcrumb;
+  padding: 0.5rem 0;
+}
+.breadcrumb-bg .ui.breadcrumb a,
+.breadcrumb-bg .ui.breadcrumb {
+  font-size: 1.5rem;
+}
+.h_btn {
+  display: none;
+}
+.second_topsearch {
+  display: none;
+}

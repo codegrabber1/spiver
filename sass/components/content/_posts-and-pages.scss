@@ -1,0 +1,70 @@
+.sticky {
+  display: block;
+  margin: 0 0 5rem 0;
+}
+.sticky_text {
+  margin: 0 auto;
+}
+.updated:not(.published) {
+  display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+  margin: 1.5em 0 0;
+}
+.content-block {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.p_bg {
+  width: 100%;
+  background: #000;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p_bg h1 {
+  color: $color__current;
+  text-transform: uppercase;
+}
+.about_block {
+  position: relative;
+  bottom: 40px;
+}
+.about_img {
+  padding: 20px;
+}
+// in  modal too.
+.block_content {
+  margin: 15px 0;
+}
+.content_blocks {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.contact_center {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  float: none;
+  width: 100%;
+}
+
+.about_widget {
+  margin: 2rem 0;
+}
+.about_widget .widget-title {
+  margin: 1.5rem 0;
+}

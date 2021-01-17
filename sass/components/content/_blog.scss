@@ -1,0 +1,79 @@
+/* ==== Blog ==== */
+.blog,
+.full-blog {
+  margin: 0 0 20px 0;
+}
+
+.blog_excerpt {
+  column-gap: 0.4em;
+  -moz-column-gap: 0.4em;
+  -webkit-column-gap: 0.4em;
+  column-count: 4;
+  -moz-column-count: 4;
+  -webkit-column-count: 4;
+}
+
+.blog_content {
+  display: inline-block;
+  margin: 10px 8px;
+}
+
+.blog_content > .ui.segment {
+  padding: 0;
+}
+
+.entry-meta,
+.inner-entry-meta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 600;
+  font-family: $font__heading;
+  font-size: 1.4rem;
+}
+h3.entry-title {
+  color: $color__text-main;
+  font-size: 2.4rem;
+  margin: 3rem 0;
+}
+.entry-meta {
+  padding: 10px 15px;
+}
+.inner-entry-meta {
+  padding: 10px 0;
+}
+.short-article {
+  margin: 10px 20px 10px 0;
+  overflow: hidden;
+}
+.short-blog-article {
+  margin: 10px 20px;
+  overflow: hidden;
+}
+
+.short-article h2 {
+  margin-bottom: 10px;
+}
+
+.full-blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.blog-item {
+  margin: 0 20px 0 0;
+  background: #fff;
+}
+
+.readmore {
+  font-size: 1.5rem;
+  float: right;
+  margin: 1rem 0;
+}
+.must-log-in {
+  margin: 1rem 0;
+}
+.required {
+  color: #f00;
+}

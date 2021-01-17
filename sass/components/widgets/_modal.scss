@@ -1,0 +1,11 @@
+.modal-content {
+  text-align: left;
+}
+.modal-header {
+  display: block !important;
+}
+.modal-header button.close {
+  font-size: 2.4rem;
+  color: $color__red;
+  outline: none;
+}

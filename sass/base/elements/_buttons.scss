@@ -1,0 +1,62 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  color: #000;
+  border: none;
+  background: #fff;
+  padding: 5px 10px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-top-left-radius: 3pt;
+  border-bottom-left-radius: 3pt;
+  &:hover {
+    border-color: $color__border-button-hover;
+  }
+
+  &:active,
+  &:focus {
+    border-color: $color__border-button-focus;
+  }
+}
+.contact_form,
+.contact_form input[type="submit"] {
+  font-size: 1.4rem !important;
+}
+.contactBtn {
+  background: $color__background-green !important;
+  border-radius: 3px !important;
+  color: $color__current !important;
+  font-weight: bold;
+  padding: 0.8rem 2.7rem !important;
+  float: right !important;
+  width: 150px !important;
+  border: none !important;
+  &:hover {
+    background: darken($color__background-green, 3%) !important;
+    transition: background 0.2c ease-in-out !important;
+  }
+}
+.env_svg {
+  width: 40px;
+  height: 40px;
+}
+.fb_svg {
+  width: 30px;
+  height: 30px !important;
+  margin-top: 3px;
+}
+.search_svg {
+  width: 30px;
+  height: 25px !important;
+  margin-top: 3px;
+}
+.question_svg {
+  display: block;
+  width: 30px;
+  height: 27px;
+}
+.cart_svg {
+  width: 20px;
+  height: 20px;
+}
